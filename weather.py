@@ -37,7 +37,7 @@ def WeatherAppWindow(master):
 
         final_info = condition # สภาพอากาศ
         final_between = des + "\n" + str(temp) + "°C" # สภาพอากาศแล้วตามด้วยอุณหภูมิ
-        final_data = "Min Temp: " + str(min_temp) + "°C" + "\n" + "Max Temp: " + str(max_temp) + "°C" + "\n" + "Pressure: " + str(pressure) + "\n" +"Humidity: " + str(humidity) + "\n" +"Wind Speed: " + str(wind) + "\n" + "Sunrise: " + sunrise + "\n" + "Sunset: " + sunset
+        final_data = "Min temperature: " + str(min_temp) + "°C" + "\n" + "Max temperature: " + str(max_temp) + "°C" + "\n" + "Pressure: " + str(pressure) + "\n" +"Humidity: " + str(humidity) + "\n" +"Wind Speed: " + str(wind) + "\n" + "Sunrise: " + sunrise + "\n" + "Sunset: " + sunset
         label1.config(text = final_info) #เชื่อมต่อให้แสดงผลค่าที่รับมา
         label3.config(text = final_between) #เชื่อมต่อให้แสดงผลค่าที่รับมา
         label2.config(text = final_data) #เชื่อมต่อให้แสดงผลค่าที่รับมา
